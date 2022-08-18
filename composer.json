@@ -15,7 +15,7 @@
         }
     },
     "scripts": {
-        "post-install-cmd": ["bin/setup.php"]
+        "post-install-cmd": ["php bin/setup.php"]
     },
     "require": {}
 }
