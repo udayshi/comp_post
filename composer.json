@@ -1,0 +1,21 @@
+{
+    "name": "udayshi/demo-postinstall",
+    "description": "This is demo for packagist.org",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Uday Shiwakoti",
+            "email": "shiuday@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": ["bin/setup.php"]
+    },
+    "require": {}
+}
